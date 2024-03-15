@@ -80,7 +80,7 @@ return (
         </div>
         <div class="row">
             <div class="col col-12 text-left mb-2">
-            <button type="button" class="btn btn-sm service-button rounded-0 mt-3">
+            <button type="button" class="btn btn-sm service-button rounded-0 mt-3 text-white">
                 Service Code
             </button>
             </div>

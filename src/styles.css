@@ -1,9 +1,10 @@
 body {
-    background: #221f1f;
+    background: #221f1f !important;
     overflow-x: hidden;
 }
 
-  /* Navbar */
+/* NAVBAR STYLE START */
+
 #logo {
     height: 50px;
     margin-left: 15px;
@@ -47,7 +48,7 @@ body {
 }
 
 .dropdown-menu {
-    background-color: black;
+    background-color: black !important;
 }
 
 .dropdown-menu a {
@@ -57,8 +58,11 @@ body {
 .dropdown-item {
     color: white !important;
 }
+    
+/* NAVBAR STYLE END */
 
-  /* Header */
+
+/* HEADER STYLE START */
 .header-main {
     flex-direction: row;
     justify-content: space-between;
@@ -78,23 +82,28 @@ body {
 
 .genres-button {
     margin-left: 30px;
-    background-color: transparent;
-    border: white 1px solid;
+    background-color: transparent !important;
+    border: gray 1px solid !important;
+    color: gray !important;
 }
 
 .genres-button:hover {
-    background-color: transparent;
-    border: gray 1px solid;
+    background-color: transparent !important;
+    border: white 1px solid !important;
+    color: white !important;
 }
 
-  /* Film section */
+/* HEADER STYLE END */
+
+
+  /* MOVIES STYLE START */
 .movie-row {
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
 .poster {
-    width: 10%;
+    width: 15%;
     height: auto;
     object-fit: cover;
     margin: 15px;
@@ -111,8 +120,10 @@ h2 {
     color: white;
     margin-left: 70px;
 }
+/* MOVIES STYLE END */
 
-  /* Footer */
+
+/* FOOTER STYLE START */
 .footer-links {
     text-align: left;
     font-size: 0.8em;
@@ -135,11 +146,14 @@ h2 {
 }
 
 .service-button {
-    color: #dbdbdb;
-    border-color: #dbdbdb;
+    color: #dbdbdb !important;
+    border-color: #dbdbdb !important;
 }
 
 .copyright {
     color: #dbdbdb;
     font-size: 0.6em;
 }
+
+/* FOOTER STYLE END */
+
