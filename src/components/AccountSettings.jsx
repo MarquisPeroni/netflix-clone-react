@@ -8,6 +8,7 @@ import React from "react";
 import fatKid from "../assets/avatar.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 const AccountSettings = () => {
   return (
     <section className="vh-100">

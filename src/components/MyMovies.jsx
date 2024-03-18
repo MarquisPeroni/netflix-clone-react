@@ -35,7 +35,7 @@ class MyMovies extends React.Component {
         <h2 className="text-white">{this.props.category}</h2>
         <Col className="mx-5">
           {this.state.isLoading && (
-            <div>
+            <div className="align-item-center">
               <Spinner animation="border" variant="success" />
             </div>
           )}
